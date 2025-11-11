@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IIT JEE Registration Form</title>
+</head>
+<body>
+<!-- 
+    action means where our form will go  -->
+
+  <form action="url_server">
+    <fieldset>
+      <legend>IIT JEE Registration form</legend>
+
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+      <br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" min="2001-01-01" max="2005-12-31"><br><br>
+
+      <label for="school">School Name:</label><br>
+      <input type="text" id="school" name="school"><br><br>
+
+      <label for="board">Board:</label>
+      <select id="board" name="board">
+        <option value="" disabled selected >Select your Board</option>
+        <option value="cbse">CBSE</option>
+        <option value="icse">ICSE</option>
+        <option value="state">State Board</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for="year">Year of Passing:</label><br>
+      <input type="number" id="year" name="year" min="2023" max="2025"><br><br>
+
+      <label for="center">Exam-Center:</label>
+      <select id="center" name="center">
+        <option value="" disabled selected>Select Center</option>
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="chennai">Chennai</option>
+        <option value="kolkata">Kolkata</option>
+      </select><br><br>
+
+      <button type="submit">Register</button>
+    </fieldset>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Details Form</title>
+</head>
+<body>
+
+    <!-- value you will write or not by default -->
+  <h1>Employee Details Form</h1>
+
+  <form>
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address">
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    <br><br>
+
+    <!-- here you can see if you do not mention the value so by default value goes "on" so that's why value is must -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <label for="job">Job Title:</label>
+    <input type="text" id="job" name="job" placeholder="Enter your job title">
+    <br><br>
+
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+      <option value="" disabled selected>Select your department</option>
+      <option value="hr">Human Resources</option>
+      <option value="it">Information Technology</option>
+      <option value="sales">Sales</option>
+      <option value="marketing">Marketing</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
+
+
+<!-- http://127.0.0.1:5500/Day-08/one.html?fullname=vijay&email=svswt69%40gmail.com&phone=9694706311&gender=male&job=SDE&department=it -->
