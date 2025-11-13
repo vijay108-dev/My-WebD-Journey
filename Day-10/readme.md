@@ -19,13 +19,13 @@ They are mainly used to style or format text inside block elements and cannot co
 
 ---
 
-## <div> and <span> Tags in HTML
- <div> Tag
+## div and span Tags in HTML
+ div Tag
 
 The <div> tag is a block-level element used to group multiple HTML elements together.
 It helps in structuring the layout of a web page and is often used as a container for other elements.
 
-## <span> Tag
+## span Tag
 
 The <span> tag is an inline element used to group small pieces of text or inline content.
 It is mainly used for styling specific parts of text using CSS without breaking the line.
