@@ -4,7 +4,6 @@
 Block-level elements are HTML elements that always start on a new line and take up the full width available.
 They are used to structure the layout of a web page and can contain both block and inline elements.
 
-
 # Inline Elements
 
 Inline elements are HTML elements that do not start on a new line and take up only as much width as necessary.
