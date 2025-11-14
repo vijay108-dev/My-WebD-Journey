@@ -1,0 +1,17 @@
+h1{
+    color: aqua;
+}
+
+ul{
+    background-color: fuchsia;
+}
+
+/*Selcted by class and class will be same */
+.first{
+    background-color: blueviolet;
+}
+
+/* id is unique  */
+#second{
+    background-color: brown;
+}

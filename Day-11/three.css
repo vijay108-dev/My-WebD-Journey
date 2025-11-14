@@ -1,0 +1,25 @@
+/* if i want to change all the element colors */
+/* Universal Selctor */
+/* *{
+    background-color: aquamarine;
+    color:lawngreen;
+} */
+
+
+/* Selcted by group */
+/* h2,h3, #first{
+    background-color: aquamarine;
+} */
+
+
+
+
+/* decendent selctor */
+section p{
+    background-color: aqua;
+}
+
+/* select by child */ 
+section > p{
+    background-color: blueviolet;
+}
