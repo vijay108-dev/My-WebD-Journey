@@ -1,0 +1,39 @@
+/* CSS FONTS */
+h1{
+    color: rgb(205, 205, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* In font size we use pixels */
+    font-size:20px;
+}
+
+/* What is em in CSS?
+
+em is a relative unit in CSS.
+
+Meaning:
+
+em = size based on the parent element’s font-size
+
+How it works:
+
+1em = parent’s font-size
+
+2em = 2 × parent’s font-size
+
+0.5em = half of parent’s font-size
+
+Example:
+
+If the parent element has a font-size of 16px:
+
+1em = 16px
+
+2em = 32px
+
+0.5em = 8px */
+
+
+/* pixels size depend upon the size of screen.
+em, relative to parent font size
+rem, relative to html font size
+%relative to parent font size  */

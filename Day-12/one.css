@@ -1,0 +1,18 @@
+/* p > div{
+    background-color: blue;
+} */
+/* HTML decides parents based on what is allowed inside a tag.
+
+A <p> tag is only allowed to contain text and inline elements.
+So it cannot contain a block element like <div>.
+
+If you write a <div> inside a <p>,
+the browser automatically closes the <p> before the <div> starts.
+
+Because the browser auto-fixes it,
+the parent–child relationship never changes.
+
+<div> can contain <p>, but
+<p> cannot contain <div>—that’s the rule. */
+
+/* block level element do not allowed as a child element like div ,a. */

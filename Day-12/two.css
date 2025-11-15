@@ -1,0 +1,28 @@
+h1{
+    /* 0-255 */
+    color: rgb(152, 200, 184);
+}
+
+h3{
+    /* hexadecimal color */
+    /* (0-f) */
+    /* it takes 4 bit */
+    color: #2d2d2d;
+
+    /* color:#2d2d2dff last 2 show alpha */
+}
+
+p{
+    /* color: hsl(hue, saturation, lightness); */
+    color:hsl(90, 90%, 50%);
+}
+
+h2{
+    /* alpha show intensity */
+    color: rgba(20, 30, 40, 0.5);
+}
+
+body{
+    background-image: url(./img2.png);
+    background-size: cover;
+}
