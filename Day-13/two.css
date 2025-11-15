@@ -1,0 +1,11 @@
+h1{
+    background-color: aquamarine !important;
+}
+
+#second{
+    background-color: blueviolet;
+}
+.first{
+    background-color: aqua;
+}
+/* Cascading decide priority */
