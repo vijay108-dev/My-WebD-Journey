@@ -1,0 +1,36 @@
+.container{
+    background-color: fuchsia;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color:blueviolet;
+    /* position: relative;
+    top: 10px; */
+
+    position: absolute;
+    /* absolute see parent class to chnage herself like if i put my position in .container then he saw the parent element */
+    top: 10px;
+}
+
+/* top bottom left right */
+/* static */
+/* relative */
+/* absolute */ 
+
+.box3{
+    background-color:brown;
+}
+.box4{
+    background-color:blanchedalmond;
+}

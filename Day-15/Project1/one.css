@@ -1,0 +1,14 @@
+*{
+    /* it will directly remove default margin from the web page */
+    margin: 0;
+}
+
+.first{
+    height: 60vh;
+    width: 60vh;
+    background-color: red;
+    border-radius: 50%;
+    /* margin: auto; it will take your element into center horizontally*/
+    margin: auto;
+    margin-top: 20vh;
+}
