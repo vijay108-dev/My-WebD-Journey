@@ -2,6 +2,7 @@
     background-color: fuchsia;
     margin-left: 200px;
     margin-top: 150px;
+    height: 500px;
 }
 
 .box{
@@ -18,15 +19,26 @@
     /* position: relative;
     top: 10px; */
 
-    position: absolute;
+    /* position: absolute;
     /* absolute see parent class to chnage herself like if i put my position in .container then he saw the parent element */
-    top: 10px;
+    /* top: 10px; */ 
+
+
+    /* position: fixed;
+    top: 10px; */
+
+    position: sticky;
+    top: 100px;
+
+
+
 }
 
 /* top bottom left right */
 /* static */
 /* relative */
 /* absolute */ 
+/* sticky */
 
 .box3{
     background-color:brown;

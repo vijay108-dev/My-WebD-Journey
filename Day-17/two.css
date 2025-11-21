@@ -1,0 +1,10 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: fuchsia;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+/* By default overflow is visible */
