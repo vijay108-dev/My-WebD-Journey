@@ -1,0 +1,63 @@
+.container{
+    background-color: beige;
+    height: 500px;
+    width: 100%;
+    /* when i put display flex then all the boxes comes in horizontal line */
+    display: flex;
+    /* flex-direction: row; */
+    /* row-reverse show the direction at reverse side */
+    flex-direction: row;
+
+    /* justify-content:center; */
+
+
+
+    /* align-items: end; */
+    /* align-items: center; */
+
+    /* flex-wrap: wrap; */
+
+
+/* for center  */
+    /* justify-content: center;
+    align-items: center; */
+
+
+
+/* You have to make 12 boxes to understand this  */
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+/* flext-direction will identify me main axis */
+/* row: horizontal is main axis */
+/* column: vertical is main axis */
+/* justify content it will around main axis */
+/* align itmes work on cross axis */
+/* By default align items are stretch */
+/* when i do flex-wrap:wrap and inspect then box goes to down*/
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.box1{
+    background-color: aquamarine;
+
+}
+.box2{
+    background-color:blueviolet;
+
+}
+
+.box3{
+    background-color:brown;
+
+}
+.box4{
+    background-color:blanchedalmond;
+}
