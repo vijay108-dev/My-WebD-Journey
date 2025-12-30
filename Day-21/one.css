@@ -1,0 +1,61 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+} */
+
+/* .container{
+    height: 800px;
+    width: 800px;
+    background-color: aqua; */
+    /* display: grid;
+    grid-template-columns: 200px 200px 200px; */
+    /* that means 3 column will make 200px k  */
+    /* grid-template-rows: 200px 200px; */
+    /* 2 row will form of 200px k  */
+/* } */
+/* .Box{
+    background-color: rgb(141, 141, 201);
+    border: 0.5rem solid black;
+
+} */
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+    width: 1000px;
+} 
+
+.container{
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: aqua; 
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+
+    /* fraction means equally divded by fraction */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+ } 
+ .Box{
+    font-size: 2rem;
+    background-color: rgb(141, 141, 201);
+    border: 0.5rem solid black;
+
+} 

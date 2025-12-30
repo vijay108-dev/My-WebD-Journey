@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+    width: 1000px;
+} 
+
+.container{
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: aqua; 
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+
+    /* fraction means equally divded by fraction */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 1rem;
+ } 
+ .Box{
+    font-size: 2rem;
+    background-color: rgb(141, 141, 201);
+    border: 0.5rem solid black;
+
+} 
+
+.header, .footer{
+    /* you should inspect the window */
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* shortcut */
+    grid-column: 1/4;
+}
+
+.sidebar{
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-row: 2/4;
+}
+
+.Box3{
+    grid-column: 2/4;
+}
