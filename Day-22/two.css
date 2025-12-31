@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    gap: 1rem;
+    background-color: black;
+    padding: 4rem;
+    display: grid;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 200px)); */
+
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+    justify-content: center;
+
+
+    /* justify-items: center;
+    align-items: center; */
+
+    /* shortcut */
+    place-items: center end;
+}
+
+/* auto-fill or auto-fit also helpfull to make our website responsive */
+
+.Box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    font-size: 4rem;
+    color: black;
+}
+
+/* grid and flex box both are usefull  */
+/* mota mota layout we use grid but for designing we use flexbox */
+
+.box2{
+    justify-self: start;
+    align-self: flex-end;
+}
