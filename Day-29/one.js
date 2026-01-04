@@ -31,3 +31,4 @@
 // Non-primitive data types are stored in heap because they are large, complex, and dynamic in size. Heap memory provides flexible space, and only their reference (address) is stored in the stack.
 
 // Stack is fast but limited, while heap is slower but large and flexible.
+
