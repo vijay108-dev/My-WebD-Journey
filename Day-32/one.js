@@ -110,3 +110,4 @@
 // They can store mixed data types (number, string, object).
 // Engine optimizes for fast insert/delete, not fixed layout.
 // Sparse arrays (missing indexes) are allowed.
+
