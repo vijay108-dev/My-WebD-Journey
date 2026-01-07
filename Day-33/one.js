@@ -70,3 +70,4 @@ const second = Math.floor((date/(1000))%60);
 //console.log(second);  //16
 
 console.log(`Olympics CountdownTime: Days: ${days} hour:${hour} minute:${minute} second:${second}`);
+
