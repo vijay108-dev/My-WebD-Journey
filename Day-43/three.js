@@ -1,0 +1,4 @@
+
+//innerHTML
+//textContent
+//innerText
