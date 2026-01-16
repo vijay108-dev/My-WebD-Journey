@@ -78,3 +78,4 @@ const quotes = [
 // text.textContent = quotes[index];
 
 // })
+
