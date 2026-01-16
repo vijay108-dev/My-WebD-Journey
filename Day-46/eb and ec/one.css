@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+}
+
+/* Grand Parent */
+#grandParent {
+    width: 350px;
+    height: 350px;
+    background: #1e293b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 2 15px 40px rgba(0,0,0,0.4);
+
+     border: 3px solid #64748b;
+}
+
+/* Parent */
+#parent {
+    width: 220px;
+    height: 220px;
+    background: #334155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+     border: 2px dashed #94a3b8
+}
+
+/* Child */
+#child {
+    width: 120px;
+    height: 120px;
+    background: #38bdf8;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#child:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(56,189,248,0.8);
+}
+
+/* Optional labels (for clarity in JS console) */
+#grandParent::before {
+    content: "Grand Parent";
+    position: absolute;
+    top: -30px;
+    color: #cbd5f5;
+    font-size: 14px;
+}
+
+#parent::before {
+    content: "Parent";
+    position: absolute;
+    top: -25px;
+    color: #e2e8f0;
+    font-size: 13px;
+}

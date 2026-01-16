@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a; 
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    background: #020617;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* common button style */
+#root button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#root button:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+/* individual colors */
+#red {
+    background: #ef4444;
+}
+
+#blue {
+    background: #3b82f6;
+}
+
+#orange {
+    background: #f97316;
+}
+
+#green {
+    background: #22c55e;
+}
+
+#purple {
+    background: #a855f7;
+}
