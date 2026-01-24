@@ -12,3 +12,5 @@ const age = 12;
 
 
 console.log("Hello");
+
+console.log("hello");
