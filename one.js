@@ -9,3 +9,6 @@ function updateBalance(value){
 
 const age = 12;
 
+
+
+console.log("Hello");
