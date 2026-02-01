@@ -1,0 +1,27 @@
+{
+  "name": "my-webd-journey",
+  "version": "1.0.0",
+  "description": "My journey of mastering Web Development — from HTML, CSS, and JavaScript to advanced frameworks like React, Node.js, and full-stack projects. This repository documents my daily learning, projects, and milestones as I build strong web dev skills step-by-step.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay108-dev/My-WebD-Journey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay108-dev/My-WebD-Journey/issues"
+  },
+  "homepage": "https://github.com/vijay108-dev/My-WebD-Journey#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
